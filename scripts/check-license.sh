@@ -17,4 +17,4 @@ project_root=$(realpath "$script_dir/..")
 
 cd "$project_root" || exit 1
 
-mvn -T 1C -f server/server-parent/pom.xml license:check1
+mvn -T 1C -f server/server-parent/pom.xml license:check12
