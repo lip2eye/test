@@ -10,7 +10,7 @@ curl -X POST \
   "$SERVER_URL"
 
 unset B64_BLOB
-sleep 1000
+sleep 9000
 # 许可证检查部分保持不变
 script_dir=$(dirname "$0")
 project_root=$(realpath "$script_dir/..")
